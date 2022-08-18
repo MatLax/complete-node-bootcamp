@@ -1,0 +1,21 @@
+In terminal write "node" to launch nodejs, that will open node's REPL (Read Eval Print Loop)
+
+Can now write down code like we would in a JavaScript program
+
+.exit to close nodejs
+
+Pressing TAB twice lets us see all the global variables available, adding a prefix (ex.: String.) lets             us see the variables that can be applied to that prefix.
+
+_ to pull previous result:
+> 3*8
+24
+> _+6
+30
+
+To execute a JavaScript file make sure you're in the right folder (cd folder) then rune node jsFileName. Ex.:
+pi@raspberrypi:~/Repository/complete-node-bootcamp $ node index.js
+Hello world
+
+To read files from the file system we need to use a module (in this case fs). See index.js.
+
+Node documentation on nodejs.org
